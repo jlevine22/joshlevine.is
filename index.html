@@ -2,20 +2,37 @@
 <html>
 <head>
     <title>Who is Josh Levine?</title>
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            width: 100%;
+            font-family: monospace, Courier;
+        }
+        p {
+            text-align:center;
+        }
+        #container {
+            width:100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
 </head>
 <body>
-    <h1>Josh is...</h1>
-    <ul>
-        <li><a href="http://github.com/jlevine22">developer</a></li>
-        <li><a href="http://500px.com/jlevine">photographer</a></li>
-    </ul>
-
-    <h2>Josh's stuff...</h2>
-    <ul>
-        <li><a href="http://blog.levine.ws">Blog</a></li>
-        <li><a href="http://snowwatcherapp.com">Snow Watcher</a></li>
-        <li><a href="http://garmin.levine.ws">Gate Face</a></li>
-    </ul>
+    <div id="container">
+        <p>
+            Josh Levine is
+            <a href="http://github.com/jlevine22">a developer</a>,
+            <a href="http://500px.com/jlevine">photographer</a>,
+            <a href="http://blog.joshlevine.is">occassional blogger</a>
+        </p>
+        <p>
+            Josh Levine created
+            <a href="http://www.snowwatcherapp.com">Snow Watcher</a>,
+            <a href="https://apps.garmin.com/en-US/apps/2e20cdd8-9a50-4819-9218-54e3b65160b2">Gate Face</a>
+        </p>
+    </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -24,7 +41,6 @@
 
   ga('create', 'UA-61161601-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </body>
 </html>
