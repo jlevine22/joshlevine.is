@@ -5,3 +5,8 @@
   height: 90%;
   padding: 16px;
 }
+
+.history-line {
+  font-family: Courier;
+  font-size: 15px;
+}
